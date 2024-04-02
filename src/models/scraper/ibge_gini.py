@@ -85,27 +85,15 @@ def main():
                         except:
                             driver.execute_script('arguments[0].click();', link_produto) 
                             print('1 except')
-                        link_produto = element.find_element(
+                        link_produto2 = link_produto.find_element(
                             By.XPATH, './/i[@class]')
                         try:
-                            link_produto.click()
+                            link_produto2.click()
                             print('2')
                         except:
-                            driver.execute_script('arguments[0].click();', link_produto) 
+                            driver.execute_script('arguments[0].click();', link_produto2) 
                             print('2 except')
-                            # driver.execute_script('arguments[0].click();', link_produto) 
-                            # print('except 2 tentaiva')
-                        # if link_produto:
-                            # # link_produto.click()
-                            # driver.execute_script('arguments[0].click();', link_produto)
-                            # href = link_produto.get_attribute('href')
-                            # if href:
-                            #     print(href)
-                                
-                        # if :
-                        #     print('depois')
-                        # item_download = item.find_element(By.XPATH, '//a')
-                        # item_download.click()
+
                         break
                     
     driver.quit()
