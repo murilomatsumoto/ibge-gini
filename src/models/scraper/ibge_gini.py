@@ -7,12 +7,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from time import sleep
 from services.file_service import Uteis
+import pandas as pd
 
 
 def main():
     options = webdriver.ChromeOptions()
     # options.headless = True
-    download_path = "/Users/murilomatsumotoramos/ibge-gini/src/downloads"
+    download_path = "/Users/murilomatsumotoramos/ibge-gini/src/downloads/zip"
     options.add_argument('--headless')  # Opcional: execute em modo headless
     options.add_argument('--no-sandbox') # Opcional: necessário para Docker
     options.add_argument('--disable-dev-shm-usage') # Opcional: necessário para Docker
@@ -99,11 +100,12 @@ def main():
                             print('2 except')
                             
                         path_to_unzip = f'{download_path}/{file_zip}'
-                        Uteis.unzip_file(path_to_unzip, download_path)
+                        Uteis.unzip_file(path_to_unzip, 'src/downloads/xls')
 
+                        
+                        
+                        
                         break
                     
     driver.quit()
 
-if __name__ == "__main__":
-    main()
