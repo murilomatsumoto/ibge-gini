@@ -6,15 +6,18 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from time import sleep
+from services.file_service import Uteis
+
 
 def main():
     options = webdriver.ChromeOptions()
     # options.headless = True
+    download_path = "/Users/murilomatsumotoramos/ibge-gini/src/downloads"
     options.add_argument('--headless')  # Opcional: execute em modo headless
     options.add_argument('--no-sandbox') # Opcional: necessário para Docker
     options.add_argument('--disable-dev-shm-usage') # Opcional: necessário para Docker
     options.add_experimental_option("prefs", {
-    "download.default_directory": "/Users/murilomatsumotoramos/ibge-gini/src/downloads",
+    "download.default_directory": download_path,
     "download.prompt_for_download": False,
     "download.directory_upgrade": True,
     "safebrowsing.enabled": True
@@ -78,6 +81,7 @@ def main():
                         link_produto = element.find_element(
                             By.XPATH, './/a[@href]')
                         if link_produto:
+                            file_zip = link_produto.text
                             print(link_produto.text)
                         try:
                             link_produto.click()
@@ -93,6 +97,9 @@ def main():
                         except:
                             driver.execute_script('arguments[0].click();', link_produto2) 
                             print('2 except')
+                            
+                        path_to_unzip = f'{download_path}/{file_zip}'
+                        Uteis.unzip_file(path_to_unzip, download_path)
 
                         break
                     
