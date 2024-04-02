@@ -11,12 +11,11 @@ def main():
     url = "https://www.ibge.gov.br/"
     driver.get(url)
 
-    menu = driver.find_element(By.ID, 'nav-toggle')
+    menu = driver.find_element(By.XPATH, '//a[@id="nav-toggle" and contains(@class, "")]')
     if menu:
+        print('menu encontrado')
         menu.click()
-
-    content = driver.find_element(By.CLASS_NAME, "conteudo").text
-    print("Conteúdo:", content)
+    
 
     driver.quit()
 
