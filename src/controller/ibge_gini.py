@@ -74,7 +74,6 @@ def main():
                 if estados_tag:
                     itens_download = estados_tag.find_elements(By.TAG_NAME, 'li')
                     for element in itens_download:
-                        print('antes')
                         link_produto = element.find_element(
                             By.XPATH, './/a[@href]')
                         if link_produto:

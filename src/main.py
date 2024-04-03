@@ -1,4 +1,4 @@
-from models.scraper.ibge_gini import main
+from controller.ibge_gini import main
 
 
 if __name__ == "__main__":
