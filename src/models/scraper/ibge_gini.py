@@ -102,7 +102,9 @@ def main():
                         path_to_unzip = f'{download_path}/{file_zip}'
                         Uteis.unzip_file(path_to_unzip, 'src/downloads/xls')
 
-                        
+                        arquivo_xls = Uteis.buscar_arquivo_excel()
+                        if arquivo_xls:
+                            Uteis.leitura_excel_insert_db(arquivo_xls)
                         
                         
                         break
