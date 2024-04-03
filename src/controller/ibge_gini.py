@@ -1,7 +1,4 @@
-from selenium.webdriver import Chrome
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
@@ -9,17 +6,20 @@ from time import sleep
 from services.file_service import Uteis
 import os
 from log.loggin_utils import Log
+from selenium.webdriver.chrome.service import Service
+from constants.names import LOCAL_PATH, CHROMEDRIVER_PATH, LOCAL_PATH_DOCKER, CHROME_DRIVER_LOCAL
+
 
 
 log = Log()
 
 class Scraping:
     
+    @staticmethod
     def scraping_ibge():
         options = webdriver.ChromeOptions()
-        # options.headless = True
-        download_path = "/Users/murilomatsumotoramos/ibge-gini/src/downloads/zip"
-        options.add_argument('--headless')  
+        download_path = LOCAL_PATH_DOCKER
+        options.add_argument('--headless')      
         options.add_argument('--no-sandbox') 
         options.add_argument('--disable-dev-shm-usage') 
         options.add_experimental_option("prefs", {
@@ -28,8 +28,9 @@ class Scraping:
         "download.directory_upgrade": True,
         "safebrowsing.enabled": True
     })
-        
-        driver = webdriver.Chrome(options=options)
+        chrome_driver_path = CHROMEDRIVER_PATH
+        chrome_service = Service(executable_path=chrome_driver_path, log_path='/tmp/chromedriver.log')
+        driver = webdriver.Chrome(options=options, service=chrome_service)
         
 
         url = "https://www.ibge.gov.br/"

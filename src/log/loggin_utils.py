@@ -4,7 +4,7 @@ import sys
 
 class Log:
     def __init__(self):
-        self.log_file_path = os.path.join("src", "log.txt")
+        self.log_file_path = os.path.join("log.txt")
         self.setup_logger()
 
     def setup_logger(self):

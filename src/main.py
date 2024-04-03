@@ -1,5 +1,5 @@
-from controller.ibge_gini import main
+from controller.ibge_gini import Scraping
 
 
 if __name__ == "__main__":
-    main()
+    Scraping.scraping_ibge()
