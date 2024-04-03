@@ -16,6 +16,7 @@ class Estado(Base):
     ID_estado = Column(Integer, primary_key=True)
     ID_brasil = Column(Integer, ForeignKey('brasil.ID_brasil'))
     Nome_estado = Column(String)
+    Indice_Gini_1991 = Column(Float)
     brasil = relationship("Brasil")
 
 class Cidade(Base):
@@ -28,4 +29,4 @@ class Cidade(Base):
 
 engine = create_engine('sqlite:///dados_gini.db')
 
-Base.metadata.create_all(engine)
+# Base.metadata.create_all(engine)
