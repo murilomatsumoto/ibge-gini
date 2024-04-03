@@ -2,6 +2,7 @@ import logging
 import os
 import sys
 
+
 class Log:
     def __init__(self):
         self.log_file_path = os.path.join("log.txt")
@@ -10,7 +11,9 @@ class Log:
     def setup_logger(self):
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(
+            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+        )
 
         file_handler = logging.FileHandler(self.log_file_path)
         file_handler.setLevel(logging.INFO)
