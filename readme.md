@@ -36,8 +36,10 @@ As variáveis deverão ser inseridas no arquivo names.py
 Rode o arquivo main.py
 O scraping de dados comecará automaticamente, onde os dados serão armazenados no banco de dados SQlite "dados_gini.db"
 
+------
+## *Processo de criação de container - Docker*
 
-## Processo de criação de container - Docker
+#### Obs: O processo de criação consiste na criação do container com a instalação do google-chrome-stable. Sugere-se que a criação seja realizada em uma ambiente Linux. (Não compatível com M1 Macbook)
 
 ```bash
   git clone https://github.com/murilomatsumoto/backend-challenge.git
