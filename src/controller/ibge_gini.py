@@ -11,7 +11,8 @@ import os
 from log.loggin_utils import Log
 
 
-log = Log
+log = Log()
+
 def main():
     options = webdriver.ChromeOptions()
     # options.headless = True
