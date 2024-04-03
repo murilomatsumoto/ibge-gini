@@ -7,19 +7,18 @@ from services.file_service import Uteis
 import os
 from log.loggin_utils import Log
 from selenium.webdriver.chrome.service import Service
-from constants.names import LOCAL_PATH, CHROMEDRIVER_PATH, LOCAL_PATH_DOCKER, CHROME_DRIVER_LOCAL
-from webdriver_manager.chrome import ChromeDriverManager
-
-
 
 log = Log()
 
 class Scraping:
     
-    @staticmethod
-    def scraping_ibge():
+    def __init__(self, driver_path, download_path):
+        self.download_path = download_path
+        self.driver_path = driver_path
+    
+    def scraping_ibge(self):
         options = webdriver.ChromeOptions()
-        download_path = LOCAL_PATH_DOCKER
+        download_path = self.download_path
         options.add_argument('--headless')      
         options.add_argument('--no-sandbox') 
         options.add_argument('--disable-dev-shm-usage') 
@@ -30,7 +29,7 @@ class Scraping:
         "safebrowsing.enabled": True
     })
         # chrome_driver_path = ChromeDriverManager().install()
-        chrome_driver_path = CHROMEDRIVER_PATH
+        chrome_driver_path = self.driver_path
         chrome_service = Service(executable_path=chrome_driver_path)
         driver = webdriver.Chrome(options=options, service=chrome_service)
         
@@ -116,8 +115,6 @@ class Scraping:
                                     log.log_message(f'Removendo arquivo temporário {path_to_unzip}')
                                     os.remove(arquivo_xls)
                                     log.log_message(f'Removendo arquivo temporário {arquivo_xls}')
-
-                            
                             
                         
         driver.quit()

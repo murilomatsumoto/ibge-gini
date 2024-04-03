@@ -31,3 +31,18 @@
 2024-04-02 22:38:35,963 - log.loggin_utils - INFO - Acessando a área de Downloads
 2024-04-02 22:38:35,963 - log.loggin_utils - INFO - Acessando a área de Downloads
 2024-04-02 22:38:35,963 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-03 13:45:44,788 - log.loggin_utils - INFO - Menu principal encontrado, acessando subitens
+2024-04-03 13:45:44,788 - log.loggin_utils - INFO - Menu principal encontrado, acessando subitens
+2024-04-03 13:45:44,788 - log.loggin_utils - INFO - Menu principal encontrado, acessando subitens
+2024-04-03 13:45:44,823 - log.loggin_utils - INFO - Clicando em estatísticas
+2024-04-03 13:45:44,823 - log.loggin_utils - INFO - Clicando em estatísticas
+2024-04-03 13:45:44,823 - log.loggin_utils - INFO - Clicando em estatísticas
+2024-04-03 13:45:44,912 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-03 13:45:44,912 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-03 13:45:44,912 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-03 13:45:47,125 - log.loggin_utils - INFO - Clicando em Censo
+2024-04-03 13:45:47,125 - log.loggin_utils - INFO - Clicando em Censo
+2024-04-03 13:45:47,125 - log.loggin_utils - INFO - Clicando em Censo
+2024-04-03 13:45:47,152 - log.loggin_utils - INFO - Acessando censo de 1991
+2024-04-03 13:45:47,152 - log.loggin_utils - INFO - Acessando censo de 1991
+2024-04-03 13:45:47,152 - log.loggin_utils - INFO - Acessando censo de 1991
