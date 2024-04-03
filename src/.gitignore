@@ -15,7 +15,6 @@ teste.py
 build/
 develop-eggs/
 dist/
-downloads/
 eggs/
 .eggs/
 lib/

@@ -7,16 +7,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from time import sleep
 from services.file_service import Uteis
-import pandas as pd
+import os
 
 
 def main():
     options = webdriver.ChromeOptions()
     # options.headless = True
     download_path = "/Users/murilomatsumotoramos/ibge-gini/src/downloads/zip"
-    options.add_argument('--headless')  # Opcional: execute em modo headless
-    options.add_argument('--no-sandbox') # Opcional: necessário para Docker
-    options.add_argument('--disable-dev-shm-usage') # Opcional: necessário para Docker
+    options.add_argument('--headless')  
+    options.add_argument('--no-sandbox') 
+    options.add_argument('--disable-dev-shm-usage') 
     options.add_experimental_option("prefs", {
     "download.default_directory": download_path,
     "download.prompt_for_download": False,
@@ -24,10 +24,6 @@ def main():
     "safebrowsing.enabled": True
 })
     
-#     options.add_experimental_option("prefs", {
-#   "download.default_directory": r"C:\Data_Files\output_files"
-#   })
-
     driver = webdriver.Chrome(options=options)
     
 
@@ -105,9 +101,11 @@ def main():
                         arquivo_xls = Uteis.buscar_arquivo_excel()
                         if arquivo_xls:
                             Uteis.leitura_excel_insert_db(arquivo_xls)
+                            if not 'Leia_me.txt' in arquivo_xls:
+                                os.remove(path_to_unzip)
+                                os.remove(arquivo_xls)
                         
                         
-                        break
                     
     driver.quit()
 
