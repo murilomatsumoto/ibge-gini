@@ -8,8 +8,10 @@ from selenium import webdriver
 from time import sleep
 from services.file_service import Uteis
 import os
+from log.loggin_utils import Log
 
 
+log = Log
 def main():
     options = webdriver.ChromeOptions()
     # options.headless = True
@@ -33,16 +35,18 @@ def main():
     menu = driver.find_element(By.XPATH, '//a[@id="nav-toggle" and contains(@class, "")]')
     if menu:
         try:
-            print('menu encontrado')
+            log.log_message('Menu principal encontrado, acessando subitens')
             menu.click()
             sleep(1)
         except:
             driver.execute_script('arguments[0].click();', menu) 
         estatisticas_element = driver.find_element(By.XPATH, '//li[@idmenu="1" and @class="parent nvcls_"]')
         if estatisticas_element:
+            log.log_message('Clicando em estatísticas')
             estatisticas_element.click()
             downloads_element = driver.find_element(By.XPATH, '//li[@idmenu="36" and @class=" nvcls_"]')
             if downloads_element:
+                log.log_message('Acessando a área de Downloads')
                 downloads_element.click()
                 
                 WebDriverWait(driver, 10).until(
@@ -56,9 +60,11 @@ def main():
     censo_element = driver.find_element(By.ID, 'Censos_anchor')
     if censo_element:
         censo_element.click()
+        log.log_message('Clicando em Censo')
         censo_noventa_um_element = driver.find_element(By.XPATH, '//li[@aria-labelledby="Censos/Censo_Demografico_1991_anchor"]')
         if censo_noventa_um_element:
             censo_noventa_um_element.click()
+            log.log_message('Acessando censo de 1991')
             indice_gini_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, '//li[@aria-labelledby="Censos/Censo_Demografico_1991/Indice_de_Gini_anchor"]/i'))
                 )     
@@ -69,40 +75,42 @@ def main():
                     indice_gini_element.click()    
                 except:
                     driver.execute_script('arguments[0].click();', indice_gini_element) 
-                    print('ok')
+                    log.log_message('Acessando o índice gini')
                 estados_tag = driver.find_elementindice_gini_element = driver.find_element(By.XPATH, '//li[@aria-labelledby="Censos/Censo_Demografico_1991/Indice_de_Gini_anchor"]/ul')
                 if estados_tag:
                     itens_download = estados_tag.find_elements(By.TAG_NAME, 'li')
+                    log.log_message('Elementos .zip encontrados para download')
                     for element in itens_download:
                         link_produto = element.find_element(
                             By.XPATH, './/a[@href]')
                         if link_produto:
                             file_zip = link_produto.text
-                            print(link_produto.text)
                         try:
                             link_produto.click()
-                            print('1')
                         except:
                             driver.execute_script('arguments[0].click();', link_produto) 
-                            print('1 except')
+                            log.log_message('Acessando área do link')
                         link_produto2 = link_produto.find_element(
                             By.XPATH, './/i[@class]')
                         try:
                             link_produto2.click()
-                            print('2')
                         except:
                             driver.execute_script('arguments[0].click();', link_produto2) 
-                            print('2 except')
+                            log.log_message(f'Realizando o download do .zip {file_zip}')
                             
                         path_to_unzip = f'{download_path}/{file_zip}'
                         Uteis.unzip_file(path_to_unzip, 'src/downloads/xls')
 
                         arquivo_xls = Uteis.buscar_arquivo_excel()
+                        log.log_message(f'Arquivo {arquivo_xls} encontrado para extração das informações')
                         if arquivo_xls:
                             Uteis.leitura_excel_insert_db(arquivo_xls)
                             if not 'Leia_me.txt' in arquivo_xls:
                                 os.remove(path_to_unzip)
+                                log.log_message(f'Removendo arquivo temporário {path_to_unzip}')
                                 os.remove(arquivo_xls)
+                                log.log_message(f'Removendo arquivo temporário {arquivo_xls}')
+
                         
                         
                     
