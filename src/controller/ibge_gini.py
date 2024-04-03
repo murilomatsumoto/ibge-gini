@@ -31,7 +31,7 @@ class Scraping:
     })
         # chrome_driver_path = ChromeDriverManager().install()
         chrome_driver_path = CHROMEDRIVER_PATH
-        chrome_service = Service(executable_path=chrome_driver_path, log_path='/tmp/chromedriver.log')
+        chrome_service = Service(executable_path=chrome_driver_path)
         driver = webdriver.Chrome(options=options, service=chrome_service)
         
 
