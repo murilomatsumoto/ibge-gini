@@ -3217,3 +3217,659 @@
 2024-04-02 21:09:13,711 - log.loggin_utils - INFO - Removendo arquivo temporário src/downloads/xls/GINI91AM.XLS
 2024-04-02 21:09:13,711 - log.loggin_utils - INFO - Removendo arquivo temporário src/downloads/xls/GINI91AM.XLS
 2024-04-02 21:09:13,711 - log.loggin_utils - INFO - Removendo arquivo temporário src/downloads/xls/GINI91AM.XLS
+2024-04-02 21:11:40,704 - log.loggin_utils - INFO - Menu principal encontrado, acessando subitens
+2024-04-02 21:11:40,743 - log.loggin_utils - INFO - Clicando em estatísticas
+2024-04-02 21:11:40,825 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-02 21:11:42,284 - log.loggin_utils - INFO - Clicando em Censo
+2024-04-02 21:11:42,315 - log.loggin_utils - INFO - Acessando censo de 1991
+2024-04-02 21:11:43,955 - log.loggin_utils - INFO - Acessando o índice gini
+2024-04-02 21:11:43,984 - log.loggin_utils - INFO - Elementos .zip encontrados para download
+2024-04-02 21:11:45,056 - log.loggin_utils - INFO - Acessando área do link
+2024-04-02 21:11:52,180 - log.loggin_utils - INFO - Menu principal encontrado, acessando subitens
+2024-04-02 21:11:52,221 - log.loggin_utils - INFO - Clicando em estatísticas
+2024-04-02 21:11:52,301 - log.loggin_utils - INFO - Acessando a área de Downloads
+2024-04-02 21:11:54,172 - log.loggin_utils - INFO - Clicando em Censo
+2024-04-02 21:11:54,206 - log.loggin_utils - INFO - Acessando censo de 1991
+2024-04-02 21:11:55,799 - log.loggin_utils - INFO - Acessando o índice gini
+2024-04-02 21:11:55,816 - log.loggin_utils - INFO - Elementos .zip encontrados para download
+2024-04-02 21:11:56,946 - log.loggin_utils - INFO - Acessando área do link
+2024-04-02 21:11:58,011 - log.loggin_utils - INFO - Realizando o download do .zip Acre.zip
+2024-04-02 21:11:58,023 - log.loggin_utils - INFO - Arquivo src/downloads/xls/GINI91AC.XLS encontrado para extração das informações
+2024-04-02 21:11:58,145 - log.loggin_utils - INFO - Nome do país: Brasil
+2024-04-02 21:11:58,145 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,145 - log.loggin_utils - INFO - Índice Gini: 0.6366
+2024-04-02 21:11:58,145 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,166 - log.loggin_utils - INFO - O índice Gini já está presente na tabela Brasil. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,167 - log.loggin_utils - INFO - Nome do estado: Acre
+2024-04-02 21:11:58,167 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,167 - log.loggin_utils - INFO - Índice Gini: 0.61
+2024-04-02 21:11:58,167 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,171 - log.loggin_utils - INFO - O estado Acre já está presente na tabela Estado. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,172 - log.loggin_utils - INFO - Nome da cidade: Acrelândia
+2024-04-02 21:11:58,172 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,172 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,172 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,176 - log.loggin_utils - INFO - A cidade Acrelândia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,176 - log.loggin_utils - INFO - Nome da cidade: Assis Brasil
+2024-04-02 21:11:58,176 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,176 - log.loggin_utils - INFO - Índice Gini: 0.4517
+2024-04-02 21:11:58,177 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,181 - log.loggin_utils - INFO - A cidade Assis Brasil já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,181 - log.loggin_utils - INFO - Nome da cidade: Brasiléia
+2024-04-02 21:11:58,181 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,181 - log.loggin_utils - INFO - Índice Gini: 0.5331
+2024-04-02 21:11:58,181 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,185 - log.loggin_utils - INFO - A cidade Brasiléia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,185 - log.loggin_utils - INFO - Nome da cidade: Bujari
+2024-04-02 21:11:58,185 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,185 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,185 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,188 - log.loggin_utils - INFO - A cidade Bujari já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,189 - log.loggin_utils - INFO - Nome da cidade: Capixaba
+2024-04-02 21:11:58,189 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,189 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,189 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,192 - log.loggin_utils - INFO - A cidade Capixaba já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,192 - log.loggin_utils - INFO - Nome da cidade: Cruzeiro do Sul
+2024-04-02 21:11:58,192 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,192 - log.loggin_utils - INFO - Índice Gini: 0.5648
+2024-04-02 21:11:58,192 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,197 - log.loggin_utils - INFO - A cidade Cruzeiro do Sul já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,197 - log.loggin_utils - INFO - Nome da cidade: Epitaciolândia
+2024-04-02 21:11:58,197 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,197 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,197 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,200 - log.loggin_utils - INFO - A cidade Epitaciolândia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,201 - log.loggin_utils - INFO - Nome da cidade: Feijó
+2024-04-02 21:11:58,201 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,201 - log.loggin_utils - INFO - Índice Gini: 0.5529
+2024-04-02 21:11:58,201 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,204 - log.loggin_utils - INFO - A cidade Feijó já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,205 - log.loggin_utils - INFO - Nome da cidade: Jordão
+2024-04-02 21:11:58,205 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,205 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,205 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,208 - log.loggin_utils - INFO - A cidade Jordão já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,208 - log.loggin_utils - INFO - Nome da cidade: Mâncio Lima
+2024-04-02 21:11:58,208 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,209 - log.loggin_utils - INFO - Índice Gini: 0.4429
+2024-04-02 21:11:58,209 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,212 - log.loggin_utils - INFO - A cidade Mâncio Lima já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,212 - log.loggin_utils - INFO - Nome da cidade: Manoel Urbano
+2024-04-02 21:11:58,212 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,212 - log.loggin_utils - INFO - Índice Gini: 0.5991
+2024-04-02 21:11:58,212 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,216 - log.loggin_utils - INFO - A cidade Manoel Urbano já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,217 - log.loggin_utils - INFO - Nome da cidade: Marechal Thaumaturgo
+2024-04-02 21:11:58,217 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,217 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,217 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,220 - log.loggin_utils - INFO - A cidade Marechal Thaumaturgo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,220 - log.loggin_utils - INFO - Nome da cidade: Plácido de Castro
+2024-04-02 21:11:58,221 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,221 - log.loggin_utils - INFO - Índice Gini: 0.5227
+2024-04-02 21:11:58,221 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,224 - log.loggin_utils - INFO - A cidade Plácido de Castro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,224 - log.loggin_utils - INFO - Nome da cidade: Porto Acre
+2024-04-02 21:11:58,224 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,224 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,224 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,227 - log.loggin_utils - INFO - A cidade Porto Acre já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,228 - log.loggin_utils - INFO - Nome da cidade: Porto Walter
+2024-04-02 21:11:58,228 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,228 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,228 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,231 - log.loggin_utils - INFO - A cidade Porto Walter já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,232 - log.loggin_utils - INFO - Nome da cidade: Rio Branco
+2024-04-02 21:11:58,232 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,232 - log.loggin_utils - INFO - Índice Gini: 0.6089
+2024-04-02 21:11:58,232 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,235 - log.loggin_utils - INFO - A cidade Rio Branco já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,236 - log.loggin_utils - INFO - Nome da cidade: Rodrigues Alves
+2024-04-02 21:11:58,236 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,236 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,236 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,239 - log.loggin_utils - INFO - A cidade Rodrigues Alves já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,239 - log.loggin_utils - INFO - Nome da cidade: Santa Rosa do Purus
+2024-04-02 21:11:58,239 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,239 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:11:58,239 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,243 - log.loggin_utils - INFO - A cidade Santa Rosa do Purus já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,243 - log.loggin_utils - INFO - Nome da cidade: Sena Madureira
+2024-04-02 21:11:58,243 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,243 - log.loggin_utils - INFO - Índice Gini: 0.6875
+2024-04-02 21:11:58,243 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,247 - log.loggin_utils - INFO - A cidade Sena Madureira já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,247 - log.loggin_utils - INFO - Nome da cidade: Senador Guiomard
+2024-04-02 21:11:58,247 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,247 - log.loggin_utils - INFO - Índice Gini: 0.5586
+2024-04-02 21:11:58,247 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,250 - log.loggin_utils - INFO - A cidade Senador Guiomard já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,251 - log.loggin_utils - INFO - Nome da cidade: Tarauacá
+2024-04-02 21:11:58,251 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,251 - log.loggin_utils - INFO - Índice Gini: 0.5048
+2024-04-02 21:11:58,251 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,254 - log.loggin_utils - INFO - A cidade Tarauacá já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,254 - log.loggin_utils - INFO - Nome da cidade: Xapuri
+2024-04-02 21:11:58,254 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:11:58,254 - log.loggin_utils - INFO - Índice Gini: 0.528
+2024-04-02 21:11:58,254 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:11:58,257 - log.loggin_utils - INFO - A cidade Xapuri já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:11:58,258 - log.loggin_utils - INFO - Removendo arquivo temporário /Users/murilomatsumotoramos/ibge-gini/src/downloads/zip/Acre.zip
+2024-04-02 21:11:58,258 - log.loggin_utils - INFO - Removendo arquivo temporário src/downloads/xls/GINI91AC.XLS
+2024-04-02 21:11:59,300 - log.loggin_utils - INFO - Acessando área do link
+2024-04-02 21:12:00,353 - log.loggin_utils - INFO - Realizando o download do .zip Alagoas.zip
+2024-04-02 21:12:00,355 - log.loggin_utils - INFO - Arquivo src/downloads/xls/GINI91AL.XLS encontrado para extração das informações
+2024-04-02 21:12:00,461 - log.loggin_utils - INFO - Nome do país: Brasil
+2024-04-02 21:12:00,461 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,461 - log.loggin_utils - INFO - Índice Gini: 0.6366
+2024-04-02 21:12:00,461 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,465 - log.loggin_utils - INFO - O índice Gini já está presente na tabela Brasil. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,465 - log.loggin_utils - INFO - Nome do estado: Alagoas
+2024-04-02 21:12:00,465 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,465 - log.loggin_utils - INFO - Índice Gini: 0.6316
+2024-04-02 21:12:00,465 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,469 - log.loggin_utils - INFO - O estado Alagoas já está presente na tabela Estado. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,469 - log.loggin_utils - INFO - Nome da cidade: Água Branca
+2024-04-02 21:12:00,469 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,469 - log.loggin_utils - INFO - Índice Gini: 0.473
+2024-04-02 21:12:00,469 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,473 - log.loggin_utils - INFO - A cidade Água Branca já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,473 - log.loggin_utils - INFO - Nome da cidade: Anadia
+2024-04-02 21:12:00,473 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,473 - log.loggin_utils - INFO - Índice Gini: 0.4841
+2024-04-02 21:12:00,473 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,476 - log.loggin_utils - INFO - A cidade Anadia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,476 - log.loggin_utils - INFO - Nome da cidade: Arapiraca
+2024-04-02 21:12:00,477 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,477 - log.loggin_utils - INFO - Índice Gini: 0.5888
+2024-04-02 21:12:00,477 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,481 - log.loggin_utils - INFO - A cidade Arapiraca já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,481 - log.loggin_utils - INFO - Nome da cidade: Atalaia
+2024-04-02 21:12:00,481 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,481 - log.loggin_utils - INFO - Índice Gini: 0.5313
+2024-04-02 21:12:00,481 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,484 - log.loggin_utils - INFO - A cidade Atalaia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,484 - log.loggin_utils - INFO - Nome da cidade: Barra de Santo Antônio
+2024-04-02 21:12:00,485 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,485 - log.loggin_utils - INFO - Índice Gini: 0.525
+2024-04-02 21:12:00,485 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,488 - log.loggin_utils - INFO - A cidade Barra de Santo Antônio já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,488 - log.loggin_utils - INFO - Nome da cidade: Barra de São Miguel
+2024-04-02 21:12:00,488 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,488 - log.loggin_utils - INFO - Índice Gini: 0.6607
+2024-04-02 21:12:00,488 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,491 - log.loggin_utils - INFO - A cidade Barra de São Miguel já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,492 - log.loggin_utils - INFO - Nome da cidade: Batalha
+2024-04-02 21:12:00,492 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,492 - log.loggin_utils - INFO - Índice Gini: 0.6481
+2024-04-02 21:12:00,492 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,496 - log.loggin_utils - INFO - A cidade Batalha já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,496 - log.loggin_utils - INFO - Nome da cidade: Belém
+2024-04-02 21:12:00,496 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,496 - log.loggin_utils - INFO - Índice Gini: 0.5098
+2024-04-02 21:12:00,496 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,499 - log.loggin_utils - INFO - A cidade Belém já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,500 - log.loggin_utils - INFO - Nome da cidade: Belo Monte
+2024-04-02 21:12:00,500 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,500 - log.loggin_utils - INFO - Índice Gini: 0.4019
+2024-04-02 21:12:00,500 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,503 - log.loggin_utils - INFO - A cidade Belo Monte já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,503 - log.loggin_utils - INFO - Nome da cidade: Boca da Mata
+2024-04-02 21:12:00,503 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,503 - log.loggin_utils - INFO - Índice Gini: 0.4705
+2024-04-02 21:12:00,503 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,506 - log.loggin_utils - INFO - A cidade Boca da Mata já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,507 - log.loggin_utils - INFO - Nome da cidade: Branquinha
+2024-04-02 21:12:00,507 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,507 - log.loggin_utils - INFO - Índice Gini: 0.3841
+2024-04-02 21:12:00,507 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,510 - log.loggin_utils - INFO - A cidade Branquinha já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,511 - log.loggin_utils - INFO - Nome da cidade: Cacimbinhas
+2024-04-02 21:12:00,511 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,511 - log.loggin_utils - INFO - Índice Gini: 0.4943
+2024-04-02 21:12:00,511 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,514 - log.loggin_utils - INFO - A cidade Cacimbinhas já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,515 - log.loggin_utils - INFO - Nome da cidade: Cajueiro
+2024-04-02 21:12:00,515 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,515 - log.loggin_utils - INFO - Índice Gini: 0.4763
+2024-04-02 21:12:00,515 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,518 - log.loggin_utils - INFO - A cidade Cajueiro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,519 - log.loggin_utils - INFO - Nome da cidade: Campo Alegre
+2024-04-02 21:12:00,519 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,519 - log.loggin_utils - INFO - Índice Gini: 0.4241
+2024-04-02 21:12:00,519 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,522 - log.loggin_utils - INFO - A cidade Campo Alegre já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,522 - log.loggin_utils - INFO - Nome da cidade: Campo Grande
+2024-04-02 21:12:00,522 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,523 - log.loggin_utils - INFO - Índice Gini: 0.498
+2024-04-02 21:12:00,523 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,526 - log.loggin_utils - INFO - A cidade Campo Grande já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,526 - log.loggin_utils - INFO - Nome da cidade: Canapi
+2024-04-02 21:12:00,526 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,526 - log.loggin_utils - INFO - Índice Gini: 0.5691
+2024-04-02 21:12:00,526 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,530 - log.loggin_utils - INFO - A cidade Canapi já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,530 - log.loggin_utils - INFO - Nome da cidade: Capela
+2024-04-02 21:12:00,530 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,530 - log.loggin_utils - INFO - Índice Gini: 0.5219
+2024-04-02 21:12:00,531 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,534 - log.loggin_utils - INFO - A cidade Capela já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,534 - log.loggin_utils - INFO - Nome da cidade: Carneiros
+2024-04-02 21:12:00,535 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,535 - log.loggin_utils - INFO - Índice Gini: 0.4604
+2024-04-02 21:12:00,535 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,538 - log.loggin_utils - INFO - A cidade Carneiros já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,538 - log.loggin_utils - INFO - Nome da cidade: Chã Preta
+2024-04-02 21:12:00,538 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,538 - log.loggin_utils - INFO - Índice Gini: 0.4746
+2024-04-02 21:12:00,538 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,542 - log.loggin_utils - INFO - A cidade Chã Preta já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,542 - log.loggin_utils - INFO - Nome da cidade: Coité do Nóia
+2024-04-02 21:12:00,542 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,542 - log.loggin_utils - INFO - Índice Gini: 0.7357
+2024-04-02 21:12:00,542 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,546 - log.loggin_utils - INFO - A cidade Coité do Nóia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,546 - log.loggin_utils - INFO - Nome da cidade: Colônia Leopoldina
+2024-04-02 21:12:00,546 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,546 - log.loggin_utils - INFO - Índice Gini: 0.5127
+2024-04-02 21:12:00,546 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,550 - log.loggin_utils - INFO - A cidade Colônia Leopoldina já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,550 - log.loggin_utils - INFO - Nome da cidade: Coqueiro Seco
+2024-04-02 21:12:00,550 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,550 - log.loggin_utils - INFO - Índice Gini: 0.5493
+2024-04-02 21:12:00,550 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,553 - log.loggin_utils - INFO - A cidade Coqueiro Seco já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,554 - log.loggin_utils - INFO - Nome da cidade: Coruripe
+2024-04-02 21:12:00,554 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,554 - log.loggin_utils - INFO - Índice Gini: 0.4953
+2024-04-02 21:12:00,554 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,557 - log.loggin_utils - INFO - A cidade Coruripe já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,557 - log.loggin_utils - INFO - Nome da cidade: Craíbas
+2024-04-02 21:12:00,557 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,557 - log.loggin_utils - INFO - Índice Gini: 0.3339
+2024-04-02 21:12:00,557 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,561 - log.loggin_utils - INFO - A cidade Craíbas já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,562 - log.loggin_utils - INFO - Nome da cidade: Delmiro Gouveia
+2024-04-02 21:12:00,562 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,562 - log.loggin_utils - INFO - Índice Gini: 0.5845
+2024-04-02 21:12:00,562 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,565 - log.loggin_utils - INFO - A cidade Delmiro Gouveia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,566 - log.loggin_utils - INFO - Nome da cidade: Dois Riachos
+2024-04-02 21:12:00,566 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,566 - log.loggin_utils - INFO - Índice Gini: 0.366
+2024-04-02 21:12:00,566 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,570 - log.loggin_utils - INFO - A cidade Dois Riachos já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,570 - log.loggin_utils - INFO - Nome da cidade: Estrela de Alagoas
+2024-04-02 21:12:00,570 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,570 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:12:00,570 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,573 - log.loggin_utils - INFO - A cidade Estrela de Alagoas já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,574 - log.loggin_utils - INFO - Nome da cidade: Feira Grande
+2024-04-02 21:12:00,574 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,574 - log.loggin_utils - INFO - Índice Gini: 0.3409
+2024-04-02 21:12:00,574 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,578 - log.loggin_utils - INFO - A cidade Feira Grande já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,578 - log.loggin_utils - INFO - Nome da cidade: Feliz Deserto
+2024-04-02 21:12:00,578 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,578 - log.loggin_utils - INFO - Índice Gini: 0.5369
+2024-04-02 21:12:00,579 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,582 - log.loggin_utils - INFO - A cidade Feliz Deserto já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,582 - log.loggin_utils - INFO - Nome da cidade: Flexeiras
+2024-04-02 21:12:00,583 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,583 - log.loggin_utils - INFO - Índice Gini: 0.4494
+2024-04-02 21:12:00,583 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,586 - log.loggin_utils - INFO - A cidade Flexeiras já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,586 - log.loggin_utils - INFO - Nome da cidade: Girau do Ponciano
+2024-04-02 21:12:00,586 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,587 - log.loggin_utils - INFO - Índice Gini: 0.5441
+2024-04-02 21:12:00,587 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,590 - log.loggin_utils - INFO - A cidade Girau do Ponciano já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,590 - log.loggin_utils - INFO - Nome da cidade: Ibateguara
+2024-04-02 21:12:00,590 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,590 - log.loggin_utils - INFO - Índice Gini: 0.3951
+2024-04-02 21:12:00,590 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,594 - log.loggin_utils - INFO - A cidade Ibateguara já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,594 - log.loggin_utils - INFO - Nome da cidade: Igaci
+2024-04-02 21:12:00,594 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,594 - log.loggin_utils - INFO - Índice Gini: 0.3983
+2024-04-02 21:12:00,594 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,598 - log.loggin_utils - INFO - A cidade Igaci já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,598 - log.loggin_utils - INFO - Nome da cidade: Igreja Nova
+2024-04-02 21:12:00,598 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,598 - log.loggin_utils - INFO - Índice Gini: 0.4102
+2024-04-02 21:12:00,599 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,602 - log.loggin_utils - INFO - A cidade Igreja Nova já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,602 - log.loggin_utils - INFO - Nome da cidade: Inhapi
+2024-04-02 21:12:00,602 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,602 - log.loggin_utils - INFO - Índice Gini: 0.4985
+2024-04-02 21:12:00,602 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,605 - log.loggin_utils - INFO - A cidade Inhapi já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,606 - log.loggin_utils - INFO - Nome da cidade: Jacaré dos Homens
+2024-04-02 21:12:00,606 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,606 - log.loggin_utils - INFO - Índice Gini: 0.6457
+2024-04-02 21:12:00,606 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,609 - log.loggin_utils - INFO - A cidade Jacaré dos Homens já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,609 - log.loggin_utils - INFO - Nome da cidade: Jacuípe
+2024-04-02 21:12:00,609 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,609 - log.loggin_utils - INFO - Índice Gini: 0.3483
+2024-04-02 21:12:00,609 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,613 - log.loggin_utils - INFO - A cidade Jacuípe já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,613 - log.loggin_utils - INFO - Nome da cidade: Japaratinga
+2024-04-02 21:12:00,613 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,613 - log.loggin_utils - INFO - Índice Gini: 0.5299
+2024-04-02 21:12:00,613 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,617 - log.loggin_utils - INFO - A cidade Japaratinga já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,617 - log.loggin_utils - INFO - Nome da cidade: Jaramataia
+2024-04-02 21:12:00,617 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,617 - log.loggin_utils - INFO - Índice Gini: 0.5291
+2024-04-02 21:12:00,617 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,620 - log.loggin_utils - INFO - A cidade Jaramataia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,621 - log.loggin_utils - INFO - Nome da cidade: Joaquim Gomes
+2024-04-02 21:12:00,621 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,621 - log.loggin_utils - INFO - Índice Gini: 0.4128
+2024-04-02 21:12:00,621 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,624 - log.loggin_utils - INFO - A cidade Joaquim Gomes já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,624 - log.loggin_utils - INFO - Nome da cidade: Jundiá
+2024-04-02 21:12:00,624 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,624 - log.loggin_utils - INFO - Índice Gini: 0.4351
+2024-04-02 21:12:00,624 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,628 - log.loggin_utils - INFO - A cidade Jundiá já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,628 - log.loggin_utils - INFO - Nome da cidade: Junqueiro
+2024-04-02 21:12:00,628 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,628 - log.loggin_utils - INFO - Índice Gini: 0.4285
+2024-04-02 21:12:00,628 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,632 - log.loggin_utils - INFO - A cidade Junqueiro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,632 - log.loggin_utils - INFO - Nome da cidade: Lagoa da Canoa
+2024-04-02 21:12:00,632 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,632 - log.loggin_utils - INFO - Índice Gini: 0.3682
+2024-04-02 21:12:00,633 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,636 - log.loggin_utils - INFO - A cidade Lagoa da Canoa já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,636 - log.loggin_utils - INFO - Nome da cidade: Limoeiro de Anadia
+2024-04-02 21:12:00,636 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,636 - log.loggin_utils - INFO - Índice Gini: 0.4114
+2024-04-02 21:12:00,636 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,639 - log.loggin_utils - INFO - A cidade Limoeiro de Anadia já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,639 - log.loggin_utils - INFO - Nome da cidade: Maceió
+2024-04-02 21:12:00,640 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,640 - log.loggin_utils - INFO - Índice Gini: 0.6419
+2024-04-02 21:12:00,640 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,643 - log.loggin_utils - INFO - A cidade Maceió já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,643 - log.loggin_utils - INFO - Nome da cidade: Major Isidoro
+2024-04-02 21:12:00,643 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,643 - log.loggin_utils - INFO - Índice Gini: 0.5357
+2024-04-02 21:12:00,643 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,647 - log.loggin_utils - INFO - A cidade Major Isidoro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,647 - log.loggin_utils - INFO - Nome da cidade: Mar Vermelho
+2024-04-02 21:12:00,648 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,648 - log.loggin_utils - INFO - Índice Gini: 0.4581
+2024-04-02 21:12:00,648 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,651 - log.loggin_utils - INFO - A cidade Mar Vermelho já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,651 - log.loggin_utils - INFO - Nome da cidade: Maragogi
+2024-04-02 21:12:00,651 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,651 - log.loggin_utils - INFO - Índice Gini: 0.4403
+2024-04-02 21:12:00,651 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,654 - log.loggin_utils - INFO - A cidade Maragogi já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,655 - log.loggin_utils - INFO - Nome da cidade: Maravilha
+2024-04-02 21:12:00,655 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,655 - log.loggin_utils - INFO - Índice Gini: 0.5312
+2024-04-02 21:12:00,655 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,658 - log.loggin_utils - INFO - A cidade Maravilha já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,658 - log.loggin_utils - INFO - Nome da cidade: Marechal Deodoro
+2024-04-02 21:12:00,658 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,658 - log.loggin_utils - INFO - Índice Gini: 0.5923
+2024-04-02 21:12:00,659 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,663 - log.loggin_utils - INFO - A cidade Marechal Deodoro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,663 - log.loggin_utils - INFO - Nome da cidade: Maribondo
+2024-04-02 21:12:00,663 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,663 - log.loggin_utils - INFO - Índice Gini: 0.587
+2024-04-02 21:12:00,663 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,666 - log.loggin_utils - INFO - A cidade Maribondo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,667 - log.loggin_utils - INFO - Nome da cidade: Mata Grande
+2024-04-02 21:12:00,667 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,667 - log.loggin_utils - INFO - Índice Gini: 0.4341
+2024-04-02 21:12:00,667 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,670 - log.loggin_utils - INFO - A cidade Mata Grande já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,670 - log.loggin_utils - INFO - Nome da cidade: Matriz de Camaragibe
+2024-04-02 21:12:00,670 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,670 - log.loggin_utils - INFO - Índice Gini: 0.5705
+2024-04-02 21:12:00,670 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,675 - log.loggin_utils - INFO - A cidade Matriz de Camaragibe já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,675 - log.loggin_utils - INFO - Nome da cidade: Messias
+2024-04-02 21:12:00,675 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,675 - log.loggin_utils - INFO - Índice Gini: 0.5112
+2024-04-02 21:12:00,675 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,678 - log.loggin_utils - INFO - A cidade Messias já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,679 - log.loggin_utils - INFO - Nome da cidade: Minador do Negrão
+2024-04-02 21:12:00,679 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,679 - log.loggin_utils - INFO - Índice Gini: 0.5117
+2024-04-02 21:12:00,679 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,682 - log.loggin_utils - INFO - A cidade Minador do Negrão já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,683 - log.loggin_utils - INFO - Nome da cidade: Monteirópolis
+2024-04-02 21:12:00,683 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,683 - log.loggin_utils - INFO - Índice Gini: 0.486
+2024-04-02 21:12:00,683 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,686 - log.loggin_utils - INFO - A cidade Monteirópolis já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,687 - log.loggin_utils - INFO - Nome da cidade: Murici
+2024-04-02 21:12:00,687 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,687 - log.loggin_utils - INFO - Índice Gini: 0.5221
+2024-04-02 21:12:00,687 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,690 - log.loggin_utils - INFO - A cidade Murici já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,690 - log.loggin_utils - INFO - Nome da cidade: Novo Lino
+2024-04-02 21:12:00,690 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,690 - log.loggin_utils - INFO - Índice Gini: 0.505
+2024-04-02 21:12:00,690 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,693 - log.loggin_utils - INFO - A cidade Novo Lino já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,694 - log.loggin_utils - INFO - Nome da cidade: Olho d'Água das Flores
+2024-04-02 21:12:00,694 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,694 - log.loggin_utils - INFO - Índice Gini: 0.569
+2024-04-02 21:12:00,694 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,697 - log.loggin_utils - INFO - A cidade Olho d'Água das Flores já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,698 - log.loggin_utils - INFO - Nome da cidade: Olho d'Água do Casado
+2024-04-02 21:12:00,698 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,698 - log.loggin_utils - INFO - Índice Gini: 0.5806
+2024-04-02 21:12:00,698 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,701 - log.loggin_utils - INFO - A cidade Olho d'Água do Casado já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,702 - log.loggin_utils - INFO - Nome da cidade: Olho d'Água Grande
+2024-04-02 21:12:00,702 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,702 - log.loggin_utils - INFO - Índice Gini: 0.4996
+2024-04-02 21:12:00,702 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,705 - log.loggin_utils - INFO - A cidade Olho d'Água Grande já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,705 - log.loggin_utils - INFO - Nome da cidade: Olivença
+2024-04-02 21:12:00,705 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,705 - log.loggin_utils - INFO - Índice Gini: 0.386
+2024-04-02 21:12:00,705 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,708 - log.loggin_utils - INFO - A cidade Olivença já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,709 - log.loggin_utils - INFO - Nome da cidade: Ouro Branco
+2024-04-02 21:12:00,709 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,709 - log.loggin_utils - INFO - Índice Gini: 0.4668
+2024-04-02 21:12:00,709 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,712 - log.loggin_utils - INFO - A cidade Ouro Branco já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,712 - log.loggin_utils - INFO - Nome da cidade: Palestina
+2024-04-02 21:12:00,713 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,713 - log.loggin_utils - INFO - Índice Gini: 0.3995
+2024-04-02 21:12:00,713 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,716 - log.loggin_utils - INFO - A cidade Palestina já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,716 - log.loggin_utils - INFO - Nome da cidade: Palmeira dos Índios
+2024-04-02 21:12:00,716 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,716 - log.loggin_utils - INFO - Índice Gini: 0.5622
+2024-04-02 21:12:00,716 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,720 - log.loggin_utils - INFO - A cidade Palmeira dos Índios já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,720 - log.loggin_utils - INFO - Nome da cidade: Pão de Açúcar
+2024-04-02 21:12:00,720 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,720 - log.loggin_utils - INFO - Índice Gini: 0.5068
+2024-04-02 21:12:00,720 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,723 - log.loggin_utils - INFO - A cidade Pão de Açúcar já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,723 - log.loggin_utils - INFO - Nome da cidade: Pariconha
+2024-04-02 21:12:00,724 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,724 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:12:00,724 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,727 - log.loggin_utils - INFO - A cidade Pariconha já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,727 - log.loggin_utils - INFO - Nome da cidade: Paripueira
+2024-04-02 21:12:00,727 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,727 - log.loggin_utils - INFO - Índice Gini: None
+2024-04-02 21:12:00,727 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,731 - log.loggin_utils - INFO - A cidade Paripueira já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,731 - log.loggin_utils - INFO - Nome da cidade: Passo de Camaragibe
+2024-04-02 21:12:00,731 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,731 - log.loggin_utils - INFO - Índice Gini: 0.4563
+2024-04-02 21:12:00,731 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,734 - log.loggin_utils - INFO - A cidade Passo de Camaragibe já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,734 - log.loggin_utils - INFO - Nome da cidade: Paulo Jacinto
+2024-04-02 21:12:00,735 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,735 - log.loggin_utils - INFO - Índice Gini: 0.4736
+2024-04-02 21:12:00,735 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,738 - log.loggin_utils - INFO - A cidade Paulo Jacinto já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,738 - log.loggin_utils - INFO - Nome da cidade: Penedo
+2024-04-02 21:12:00,738 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,738 - log.loggin_utils - INFO - Índice Gini: 0.5814
+2024-04-02 21:12:00,738 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,741 - log.loggin_utils - INFO - A cidade Penedo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,742 - log.loggin_utils - INFO - Nome da cidade: Piaçabuçu
+2024-04-02 21:12:00,742 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,742 - log.loggin_utils - INFO - Índice Gini: 0.5275
+2024-04-02 21:12:00,742 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,745 - log.loggin_utils - INFO - A cidade Piaçabuçu já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,746 - log.loggin_utils - INFO - Nome da cidade: Pilar
+2024-04-02 21:12:00,746 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,746 - log.loggin_utils - INFO - Índice Gini: 0.5456
+2024-04-02 21:12:00,746 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,749 - log.loggin_utils - INFO - A cidade Pilar já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,749 - log.loggin_utils - INFO - Nome da cidade: Pindoba
+2024-04-02 21:12:00,750 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,750 - log.loggin_utils - INFO - Índice Gini: 0.4121
+2024-04-02 21:12:00,750 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,753 - log.loggin_utils - INFO - A cidade Pindoba já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,753 - log.loggin_utils - INFO - Nome da cidade: Piranhas
+2024-04-02 21:12:00,753 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,753 - log.loggin_utils - INFO - Índice Gini: 0.6442
+2024-04-02 21:12:00,753 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,756 - log.loggin_utils - INFO - A cidade Piranhas já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,756 - log.loggin_utils - INFO - Nome da cidade: Poço das Trincheiras
+2024-04-02 21:12:00,757 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,757 - log.loggin_utils - INFO - Índice Gini: 0.4772
+2024-04-02 21:12:00,757 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,760 - log.loggin_utils - INFO - A cidade Poço das Trincheiras já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,760 - log.loggin_utils - INFO - Nome da cidade: Porto Calvo
+2024-04-02 21:12:00,760 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,760 - log.loggin_utils - INFO - Índice Gini: 0.4681
+2024-04-02 21:12:00,760 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,764 - log.loggin_utils - INFO - A cidade Porto Calvo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,764 - log.loggin_utils - INFO - Nome da cidade: Porto de Pedras
+2024-04-02 21:12:00,764 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,764 - log.loggin_utils - INFO - Índice Gini: 0.3769
+2024-04-02 21:12:00,764 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,768 - log.loggin_utils - INFO - A cidade Porto de Pedras já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,768 - log.loggin_utils - INFO - Nome da cidade: Porto Real do Colégio
+2024-04-02 21:12:00,768 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,768 - log.loggin_utils - INFO - Índice Gini: 0.4355
+2024-04-02 21:12:00,768 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,771 - log.loggin_utils - INFO - A cidade Porto Real do Colégio já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,772 - log.loggin_utils - INFO - Nome da cidade: Quebrangulo
+2024-04-02 21:12:00,772 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,772 - log.loggin_utils - INFO - Índice Gini: 0.5098
+2024-04-02 21:12:00,772 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,775 - log.loggin_utils - INFO - A cidade Quebrangulo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,775 - log.loggin_utils - INFO - Nome da cidade: Rio Largo
+2024-04-02 21:12:00,775 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,775 - log.loggin_utils - INFO - Índice Gini: 0.5406
+2024-04-02 21:12:00,775 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,780 - log.loggin_utils - INFO - A cidade Rio Largo já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,780 - log.loggin_utils - INFO - Nome da cidade: Roteiro
+2024-04-02 21:12:00,780 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,780 - log.loggin_utils - INFO - Índice Gini: 0.3789
+2024-04-02 21:12:00,780 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,784 - log.loggin_utils - INFO - A cidade Roteiro já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,784 - log.loggin_utils - INFO - Nome da cidade: Santa Luzia do Norte
+2024-04-02 21:12:00,784 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,784 - log.loggin_utils - INFO - Índice Gini: 0.5247
+2024-04-02 21:12:00,784 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,787 - log.loggin_utils - INFO - A cidade Santa Luzia do Norte já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,787 - log.loggin_utils - INFO - Nome da cidade: Santana do Ipanema
+2024-04-02 21:12:00,788 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,788 - log.loggin_utils - INFO - Índice Gini: 0.5767
+2024-04-02 21:12:00,788 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,791 - log.loggin_utils - INFO - A cidade Santana do Ipanema já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,791 - log.loggin_utils - INFO - Nome da cidade: Santana do Mundaú
+2024-04-02 21:12:00,791 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,791 - log.loggin_utils - INFO - Índice Gini: 0.4549
+2024-04-02 21:12:00,791 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,795 - log.loggin_utils - INFO - A cidade Santana do Mundaú já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,795 - log.loggin_utils - INFO - Nome da cidade: São Brás
+2024-04-02 21:12:00,795 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,795 - log.loggin_utils - INFO - Índice Gini: 0.5075
+2024-04-02 21:12:00,795 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,799 - log.loggin_utils - INFO - A cidade São Brás já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,799 - log.loggin_utils - INFO - Nome da cidade: São José da Laje
+2024-04-02 21:12:00,799 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,799 - log.loggin_utils - INFO - Índice Gini: 0.4908
+2024-04-02 21:12:00,799 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,802 - log.loggin_utils - INFO - A cidade São José da Laje já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,802 - log.loggin_utils - INFO - Nome da cidade: São José da Tapera
+2024-04-02 21:12:00,802 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,802 - log.loggin_utils - INFO - Índice Gini: 0.4664
+2024-04-02 21:12:00,803 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,806 - log.loggin_utils - INFO - A cidade São José da Tapera já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,806 - log.loggin_utils - INFO - Nome da cidade: São Luís do Quitunde
+2024-04-02 21:12:00,806 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,806 - log.loggin_utils - INFO - Índice Gini: 0.4739
+2024-04-02 21:12:00,806 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,809 - log.loggin_utils - INFO - A cidade São Luís do Quitunde já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,809 - log.loggin_utils - INFO - Nome da cidade: São Miguel dos Campos
+2024-04-02 21:12:00,809 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,809 - log.loggin_utils - INFO - Índice Gini: 0.5916
+2024-04-02 21:12:00,809 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,813 - log.loggin_utils - INFO - A cidade São Miguel dos Campos já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,814 - log.loggin_utils - INFO - Nome da cidade: São Miguel dos Milagres
+2024-04-02 21:12:00,814 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,814 - log.loggin_utils - INFO - Índice Gini: 0.4595
+2024-04-02 21:12:00,814 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,818 - log.loggin_utils - INFO - A cidade São Miguel dos Milagres já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,818 - log.loggin_utils - INFO - Nome da cidade: São Sebastião
+2024-04-02 21:12:00,818 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,818 - log.loggin_utils - INFO - Índice Gini: 0.4573
+2024-04-02 21:12:00,818 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,822 - log.loggin_utils - INFO - A cidade São Sebastião já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,822 - log.loggin_utils - INFO - Nome da cidade: Satuba
+2024-04-02 21:12:00,822 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,822 - log.loggin_utils - INFO - Índice Gini: 0.5465
+2024-04-02 21:12:00,822 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,825 - log.loggin_utils - INFO - A cidade Satuba já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,826 - log.loggin_utils - INFO - Nome da cidade: Senador Rui Palmeira
+2024-04-02 21:12:00,826 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,826 - log.loggin_utils - INFO - Índice Gini: 0.4425
+2024-04-02 21:12:00,826 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,829 - log.loggin_utils - INFO - A cidade Senador Rui Palmeira já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,829 - log.loggin_utils - INFO - Nome da cidade: Tanque d'Arca
+2024-04-02 21:12:00,830 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,830 - log.loggin_utils - INFO - Índice Gini: 0.4097
+2024-04-02 21:12:00,830 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,833 - log.loggin_utils - INFO - A cidade Tanque d'Arca já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,833 - log.loggin_utils - INFO - Nome da cidade: Taquarana
+2024-04-02 21:12:00,834 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,834 - log.loggin_utils - INFO - Índice Gini: 0.4182
+2024-04-02 21:12:00,834 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,837 - log.loggin_utils - INFO - A cidade Taquarana já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,837 - log.loggin_utils - INFO - Nome da cidade: Teotônio Vilela
+2024-04-02 21:12:00,837 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,837 - log.loggin_utils - INFO - Índice Gini: 0.4457
+2024-04-02 21:12:00,837 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,840 - log.loggin_utils - INFO - A cidade Teotônio Vilela já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,841 - log.loggin_utils - INFO - Nome da cidade: Traipu
+2024-04-02 21:12:00,841 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,841 - log.loggin_utils - INFO - Índice Gini: 0.5826
+2024-04-02 21:12:00,841 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,844 - log.loggin_utils - INFO - A cidade Traipu já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,845 - log.loggin_utils - INFO - Nome da cidade: União dos Palmares
+2024-04-02 21:12:00,845 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,845 - log.loggin_utils - INFO - Índice Gini: 0.5446
+2024-04-02 21:12:00,845 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,848 - log.loggin_utils - INFO - A cidade União dos Palmares já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,848 - log.loggin_utils - INFO - Nome da cidade: Viçosa
+2024-04-02 21:12:00,848 - log.loggin_utils - INFO - Ano: 1991
+2024-04-02 21:12:00,848 - log.loggin_utils - INFO - Índice Gini: 0.561
+2024-04-02 21:12:00,848 - log.loggin_utils - INFO - -----------------
+2024-04-02 21:12:00,852 - log.loggin_utils - INFO - A cidade Viçosa já está presente na tabela Cidade. Não foi realizada nenhuma inserção.
+2024-04-02 21:12:00,852 - log.loggin_utils - INFO - Removendo arquivo temporário /Users/murilomatsumotoramos/ibge-gini/src/downloads/zip/Alagoas.zip
+2024-04-02 21:12:00,853 - log.loggin_utils - INFO - Removendo arquivo temporário src/downloads/xls/GINI91AL.XLS
+2024-04-02 21:12:01,952 - log.loggin_utils - INFO - Acessando área do link
