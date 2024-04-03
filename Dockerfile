@@ -46,4 +46,4 @@ COPY /src .
 # RUN set -xe && apt-get -yqq update && apt-get -yqq install python3-pip && pip3 install --upgrade pip
 
 # Exemplo de comando para rodar o script do Selenium (substitua pelo seu próprio comando)
-CMD ["python3", "src/main.py"]
+CMD ["python3", "main.py"]
