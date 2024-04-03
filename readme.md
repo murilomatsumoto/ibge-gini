@@ -59,5 +59,32 @@ Com a imagem já criada, está na hora de rodar o container:
 ```bash
   docker run -it <nome_da_imagem> /bin/bash
 ```
+-------
+## Banco de dados
+
+- Visualização das tabelas criadas no banco de dados:
+
+![Exemplo de Imagem](tabelas.png)
+
+- No  arquivo result_cidades.json é possível verificar os resultados do scraping
+- Obs: Nos casos em que não foi encontrado o índice, foi considerado null
+
+  - Exemplo:
+
+        {
+          "ID_cidade" : 1,
+          "ID_estado" : 1,
+          "Nome_cidade" : "Acrelândia",
+          "Indice_Gini_1991" : null
+        },
+        {
+          "ID_cidade" : 2,
+          "ID_estado" : 1,
+          "Nome_cidade" : "Assis Brasil",
+          "Indice_Gini_1991" : 0.4517
+        }
+
+--------
+
 
 For suport, send e-mail to murilomatsumoto@gmail.com.
