@@ -90,7 +90,7 @@ class Uteis:
             if arq.lower().endswith(".xls") or arq.lower().endswith(".XLS")
         ]
         if not arquivos:
-            log.log_message("Nenhum arquivo Excel encontrado na pasta", diretorio)
+            log.log_message(f"Nenhum arquivo Excel encontrado na pasta {diretorio}")
             return None
 
         return os.path.join(diretorio, arquivos[0])
