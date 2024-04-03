@@ -1,5 +1,6 @@
 # Use a imagem oficial do Python
 FROM openjdk:17.0.2-slim-bullseye
+# FROM ubuntu
 
 # Instale as dependências do sistema
 RUN apt-get update && apt-get install -y \
@@ -19,14 +20,15 @@ RUN apt-get update && apt-get install -y \
 
 # Baixe o arquivo zip do Google Chrome
 RUN wget -q https://storage.googleapis.com/chrome-for-testing-public/123.0.6309.0/linux64/chrome-linux64.zip \
-    && unzip chrome-linux64.zip -d /opt/chrome \
+    && unzip chrome-linux64.zip -d /opt/google \
     && rm chrome-linux64.zip
+
 
 # Baixe o arquivo zip do ChromeDriver
 RUN wget -q https://storage.googleapis.com/chrome-for-testing-public/123.0.6309.0/linux64/chromedriver-linux64.zip \
     && unzip chromedriver-linux64.zip -d /opt/chrome \
     && mv /opt/chrome/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver \
-    && chmod 755 /usr/local/bin/chromedriver \
+    && chmod +x /usr/local/bin/chromedriver \
     && rm chromedriver-linux64.zip
 
 # Defina o diretório de trabalho dentro do contêiner

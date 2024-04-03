@@ -8,6 +8,7 @@ import os
 from log.loggin_utils import Log
 from selenium.webdriver.chrome.service import Service
 from constants.names import LOCAL_PATH, CHROMEDRIVER_PATH, LOCAL_PATH_DOCKER, CHROME_DRIVER_LOCAL
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 
@@ -28,6 +29,7 @@ class Scraping:
         "download.directory_upgrade": True,
         "safebrowsing.enabled": True
     })
+        # chrome_driver_path = ChromeDriverManager().install()
         chrome_driver_path = CHROMEDRIVER_PATH
         chrome_service = Service(executable_path=chrome_driver_path, log_path='/tmp/chromedriver.log')
         driver = webdriver.Chrome(options=options, service=chrome_service)
