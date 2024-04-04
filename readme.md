@@ -14,9 +14,6 @@
 
 ## Variáveis 
 
-To run this project, you'll need to add the following environment variables to your .env file:
-You have to set your .env file on the /src folder
-
 `CHROME_DRIVER_LOCAL` = Chromedriver para execução do chrome (Verificar compatiblidade com o chrome instalado na máquina que será executado o código) - Versão utilizada no projeto: 123.0.6312.86
 https://googlechromelabs.github.io/chrome-for-testing/#stable
 
